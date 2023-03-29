@@ -1,0 +1,28 @@
+student:
+  name: John Doe
+  age: 20
+  gender: male
+  address:
+    street: "123 test St"
+    city: Kyiv
+    state: Kyivska
+    zipcode: 00000
+  contact:
+    - type: email
+      value: john.doe@test.com
+      description: |
+        This is first description
+    - type: phone
+      value: 111-111-4567
+      description: >
+        This is second description
+  grades:
+    math: 90
+    english: 85
+    history: 95
+  is_enrolled: true
+  courses:
+    - Math
+    - English
+    - History
+  new_courses: [Chinese, Chemistry]
